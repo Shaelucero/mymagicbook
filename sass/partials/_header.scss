@@ -1,0 +1,38 @@
+header {
+  background-color: pink;
+  text-align: center;
+  padding: 6px;
+
+  .logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
+  nav {
+    ul {
+        li {
+         @include menu-btn;
+            &:hover {
+                color: blueviolet;
+                background-color: white;
+              }
+
+            a {
+                display: inline-block;
+                color: inherit;
+                text-decoration: none;
+              }
+            .cta {
+                @extend a; background-color: indigo;
+                width: 100%;
+            }
+            }
+    } 
+  } 
+  h1 {
+    font-size: 40px;
+    font-family:map-get($fuentes, fuente-header);
+    text-align: center;
+    color: darkslateblue;
+  }
+}

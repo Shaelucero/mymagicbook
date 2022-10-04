@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+header {
+    background-color: pink;
+    text-align: center;
+    padding: 6px;
+}
+.logo {
+    display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+        width: 120px;
+        background-color: bisque;
+        color: steelblue;
+        cursor: pointer;
+}
+.hover{
+        color: blueviolet;
+        background-color: white;
+      
+}
+nav ul li a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+}
+.initial {
+    text-align: center;
+    background-image:linear-gradient( pink, mediumpurple);
+  }
+  
+  .initial p {
+    font-size: 15px;
+    font-family: fantasy;
+    color: #363670;
+    margin-bottom: 20px;
+  }
+header h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: darkslateblue;
+}
+body {
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    background-color: deeppink;
+  }
+  main {
+  text-align: center;
+    background-image: linear-gradient(pink, mediumpurple);
+  }
+  .main-info {
+    padding: 12px;
+    width: 250px;
+  }
+ main img {
+    width: 250px;
+  }
+
+ .perfil {
+    width: 250px;
+  }
+  .banner {
+    width: 330px;
+  }
+  h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #212149;
+    padding: 30px;
+    background-image: linear-gradient(to left, grey, azure);
+  }
+  main p {
+    font-size: 14px;
+    font-family: Fantasy;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .galeria {
+    width: 250px;
+  }
+  .footer {
+    text-align: center;
+    background-color: palegoldenrod;
+    padding: 20px 0;
+  }
+  .footer p {
+    color: chocolate;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;}
+.contact-form {
+        width: 200px;
+        margin: 0 auto;
+ }
+.contact-form {
+          text-align: center;
+          background-color: lightpink;
+          width: 200px;
+          height: 300px;
+          margin-top: 20px;
+ }
+ .grid {
+  display: grid;
+  padding: 10px;
+  justify-content: center;
+  gap: 2rem;
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
