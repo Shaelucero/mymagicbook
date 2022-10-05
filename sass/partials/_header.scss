@@ -10,29 +10,37 @@ header {
   }
   nav {
     ul {
-        li {
-         @include menu-btn;
-            &:hover {
-                color: blueviolet;
-                background-color: white;
-              }
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      li {
+        @include menu-btn;
+        &:hover {
+          color: blueviolet;
+          background-color: white;
+        }
 
-            a {
-                display: inline-block;
-                color: inherit;
-                text-decoration: none;
-              }
-            .cta {
-                @extend a; background-color: indigo;
-                width: 100%;
-            }
-            }
-    } 
-  } 
+        a {
+          display: inline-block;
+          color: inherit;
+          text-decoration: none;
+        }
+        .cta {
+          @extend a;
+          background-color: indigo;
+          width: 100%;
+        }
+      }
+      @media (max-width: 900px) {
+        flex-direction: column;
+      }
+    }
+  }
   h1 {
     font-size: 40px;
-    font-family:map-get($fuentes, fuente-header);
+    font-family: map-get($fuentes, fuente-header);
     text-align: center;
     color: darkslateblue;
   }
 }
+

@@ -1,0 +1,19 @@
+.galeria {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 100px 25px;
+    gap: 50px;
+    img {
+      width: 200px;
+      height: 400px;
+      object-fit: cover;
+    }
+  
+    @media (max-width: 600px) {
+      img {
+        width: 350px;
+      }
+    }
+  }
+  
