@@ -27,7 +27,7 @@ header {
         }
         .cta {
           @extend a;
-          background-color: indigo;
+          border: 1px solid #1a2d2b;
           width: 100%;
         }
       }
@@ -43,4 +43,3 @@ header {
     color: darkslateblue;
   }
 }
-
