@@ -1,0 +1,39 @@
+.main__home {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  max-width: 1250px;
+  margin: auto;
+  .main__img {
+    max-width: 400px;
+    min-width: 250px;
+    margin: auto;
+  }
+  .main__text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: max-content;
+    min-width: 300px;
+    h2 {
+      @include h2;
+      text-align: start;
+      font-size: 6em;
+      line-height: 1em;
+      text-align: center;
+    }
+    .text {
+      text-align: center;
+      gap: 1em;
+      p {
+        font-size: 1.3em;
+        font-weight: 100;
+        font-style: italic;
+        gap: 2em;
+      }
+    }
+  }
+}

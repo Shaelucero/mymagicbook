@@ -1,12 +1,17 @@
-@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap");
-@import "./partials/variables";
-@import "./partials/maps_mixin_exten/maps";
-@import "./partials/maps_mixin_exten/mixin";
-@import "./partials/header";
-@import "./partials/body";
-@import "./partials/galeria";
-@import "./partials/mis-inicios";
-@import "./partials/footer";
+@import "partials/font.scss";
+@import "partials/variables.scss";
+@import "partials/maps.scss";
+@import "partials/mixins.scss";
+@import "partials/reset.scss";
+@import "partials/main.scss";
+@import "partials/about.scss";
+@import "partials/banner.scss";
+@import "partials/footer.scss";
+@import "partials/navbar.scss";
+@import "partials/container";
+@import "partials/divider";
+@import "partials/prologe.scss";
+
 
 
   

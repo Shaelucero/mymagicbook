@@ -1,197 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="LIBROS, AMOR, SAGAS, PERSONAJES, SUEÑOS, WATTPAD">
-        <meta name="description" content="LIBROS, AMOR, SAGAS, PERSONAJES, SUEÑOS, WATTPAD">
-          <!-- CDN A LIBRERIA FONTAWSOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-<!-- CDN A BOOTSTRAP -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
-<link rel="stylesheet" href="../sass/styles.css">
-        <title>Consejos</title>
-      </head>
-      <body>
-       <!-- header -->
-    <header class="header">
-      <nav> 
-        <ul>
-          <a href="../index.html"><img src="../img/logo.png" alt="libro" class="logo"></a>
-                      <li><a class="nav-link" href="mis_inicios.html">Mis inicios</a></li>
-                      <li><a class="nav-link" href="mis_libros.html">Mis Libros</a></li>
-                      <li><a class="nav-link" href="galeria.html">Galeria</a></li>
-                      <li><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
-                      <li><a class="nav-link" href="consejos.html">Consejos</a></li>
-                      <li><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    </ul>
-                    </nav>  
-  <h1>Welcome to your dreams</h1>                      
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="LIBROS, AMOR, SAGAS, PERSONAJES, SUEÑOS, WATTPAD"
+    />
+    <meta
+      name="description"
+      content="LIBROS, AMOR, SAGAS, PERSONAJES, SUEÑOS, WATTPAD"
+    />
+    <!-- CDN A BOOTSTRAP -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/sass/styles.css" />
+    <title>Consejos</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light px-4">
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../img/logo.png" alt="logo" width="80" height="80"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav text-center">
+            <li class="nav-item py-3">
+              <a class="nav-link" href="mis_inicios.html">Mis inicios</a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="nav-link" href="mis_libros.html">Mis libros</a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="nav-link" href="curiosidades.html">Curiosidades</a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="nav-link active" href="consejos.html">Consejos</a>
+            </li>
+            <li class="nav-item py-3">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-        <!-- header -->
-        <!-- main -->
-        <main>
+
+    <main>
+      <section class="section__about">
+        <div class="about__text container">
           <h2>Guia y Consejos</h2>
-    
-          <p> <em>
-            Uno de los principales problemas de los escritores principiantes a la
-            hora de escribir una novela es trabajar la estructura. ¿Cómo saber si tu
-            idea tiene la entidad necesaria como para ocupar una novela entera?;
-            ¿qué tipo de estructura le irá mejor? ¿qué hay del punto de vista o del
-            narrador? </em>
+
+          <p>
+            <em>
+              Uno de los principales problemas de los escritores principiantes a
+              la hora de escribir una novela es trabajar la estructura. ¿Cómo
+              saber si tu idea tiene la entidad necesaria como para ocupar una
+              novela entera?; ¿qué tipo de estructura le irá mejor? ¿qué hay del
+              punto de vista o del narrador?
+            </em>
           </p>
-          <p> <em>
-            Antes de escribir la primera frase hay al menos diez cosas que debes
-            tener claras. Si no has pensado en ellas, puedes lanzarte a escribir
-            pero, antes o después, te encontrarás con que hay aspectos en los que te
-            quedas bloqueado y que pueden hacer naufragar tu novela.</em>
-          </p>
-    
-          <h3>La historia</h3>
-          <p> <em>
-            El germen de algunas novelas es un personaje. De pronto lo tienes claro:
-            quieres escribir sobre una mujer que emigra a Argentina a principios del
-            siglo XX. Pero lo más común es que las novelas comiencen con una
-            historia. No se trata de la mujer, sino de su historia: emigrar, la
-            Argentina de principios del siglo XX, etc. Tienes que tener clara cuál
-            es la historia que vas a contar. La trama viene después. Al principio,
-            basta con la historia. </em>
+          <p>
+            <em>
+              Antes de escribir la primera frase hay al menos diez cosas que
+              debes tener claras. Si no has pensado en ellas, puedes lanzarte a
+              escribir pero, antes o después, te encontrarás con que hay
+              aspectos en los que te quedas bloqueado y que pueden hacer
+              naufragar tu novela.</em
+            >
           </p>
 
-          <h3>El personaje</h3>
-          <p> <em>
-            Lo siguiente a lo que debes prestar antes de empezar a escribir una
-            novela es al personaje. ¿Quién es el protagonista de tu historia? ¿Quién
-            va a llevar el peso de la acción? Tal vez lo tengas claro desde el
-            principio, pero ten cuidado de no decantarte por lo obvio. La historia
-            de la mujer emigrante, ¿la va a narrar ella misma?, ¿y si lo hiciera su
-            nieta? Lo mismo sucede con los atributos del personaje. Una mujer
-            emigrante debe ser valiente, decidida, una mujer que toma su destino
-            entre sus manos. Pero ¿dónde está el conflicto en una historia así? Crea
-            claroscuros para evitar construir un personaje plano: una mujer con
-            momentos de vacilación, de duda, que debe sobreponerse a sus temores…
-            Ese es un personaje interesante. </em>
-          </p>
-          
-          <h3>Contexto</h3>
-          <p> <em>
-            El contexto es vital en una novela. Es el telón sobre el que sucede la
-            acción y, aunque pueda parecer secundario, perfila a los personajes y
-            realza a la historia. Por eso es fundamental tenerlo claro antes de
-            empezar a escribir una novela. Para nuestra novela de la mujer emigrante
-            necesitaríamos documentarnos. Saber cómo era la España de principios del
-            siglo XX. También sería necesario saber cómo era la Argentina de la
-            época, cómo recibía a los extranjeros, cuál era su clima social,
-            político, laboral, etc. Pero si fueras a escribir una novela de
-            fantasía, deberías crear las reglas que rigen el mundo o la sociedad
-            donde tendrá lugar la acción. Y luego hacer que todo suceda de acuerdo a
-            esas reglas que tú mismo habrás creado. </em>
+          <h3 class="subtitle"><span>#</span> La historia</h3>
+          <p>
+            <em>
+              El germen de algunas novelas es un personaje. De pronto lo tienes
+              claro: quieres escribir sobre una mujer que emigra a Argentina a
+              principios del siglo XX. Pero lo más común es que las novelas
+              comiencen con una historia. No se trata de la mujer, sino de su
+              historia: emigrar, la Argentina de principios del siglo XX, etc.
+              Tienes que tener clara cuál es la historia que vas a contar. La
+              trama viene después. Al principio, basta con la historia.
+            </em>
           </p>
 
-          <h3>Acontecimiento descencadenante</h3>
-          <p> <em>
-            Todas las novelas tienen un acontecimiento desencadenante que dispara la
-            acción. Algo que altera lo que era la situación normal para introducir
-            los cambios y conflictos que tendrán en vilo al lector. El
-            acontecimiento desencadenante es decisivo, pero en un primer momento no
-            es necesario que te obsesiones con él. Basta con que lo esboces de
-            manera superficial, después ya lo desarrollarás. Por ejemplo: la
-            protagonista de nuestra novela emigra a Argentina cuando se queda viuda
-            y sin sustento para encontrarse con su hermano, que había emigrado años
-            atrás.</em>
-          </p>
-          
-          <h3>Momentos clave</h3>
-          <p> <em>
-            Antes de empezar a escribir una novela tienes que tener claro cuáles
-            serán sus momentos clave, atendiendo a la historia que estás tramando y
-            a tu personaje. De nuevo, no hace falta que los desarrolles. Tan solo
-            apúntalos para tener presente hacia qué hitos debes conducir la
-            historia. Intenta pensar al menos tres momentos clave para tu novela.
-            Recuerda que los momentos clave no tienen que ser situaciones de vida o
-            muerte. Pueden ser simplemente momentos de comprensión o de resolución.
-            Eso sí, tienen que tener sentido dentro del conjunto de la novela y
-            estar de acuerdo con el carácter preliminar que has esbozado para tu
-            personaje.</em>
-          </p>
-          <h3>Desenlance</h3>
-          <p> <em>
-            De la misma manera, debes tener claro cuál es el desenlace de tu novela,
-            hacia qué final dirigirás la acción. Anota la idea general. Si tienes
-            claros algunos detalles, apúntalos también. Si se te ocurren distintas
-            posibilidades para cerrar la historia, toma nota de todas para ver
-            después cuál es la que mejor encaja con la historia cuando avances en la
-            escritura.</em>
-          </p>
-          <h3>Tono</h3>
-          <p><em>
-            El tono de una novela es un aspecto más intangible, menos concreto, que
-            su protagonista o su argumento. Sin embargo, es igual de importante.
-            Debes tener claro el tono de tu novela y no perderlo de vista mientras
-            escribes. Antes de empezar a escribir tienes qué decidir cuál es el tono
-            en que narrarás tu historia. A veces el tono resulta obvio: si estás
-            escribiendo una novela de humor el tono tiene que ser gracioso o
-            irónico. Otras veces debes pensar un poco para dar con el tono adecuado.</em>
-          </p>
-          <h3>Escenarios y atmosfera</h3>
-          <p> <em>
-            Los escenarios y la atmósfera de tu novela no son elementos decisivos.
-            Pero pueden serlo. Hay muchas buenas novelas donde los escenarios no
-            tienen más importancia que la de ser los espacios donde sucede la
-            acción. Sin embargo, escenarios y atmósferas, cuando se trabajan bien,
-            pueden transformarse en un elemento que recorre la novela de principio a
-            fin. Un elemento que se imbrica tanto en la narración que el lector lo
-            reconoce como característico de esa novela. Los escenarios y las
-            atmósferas pueden condicionar a los personajes y, con ello, el
-            transcurso de la acción. Antes de empezar a escribir, piensa en qué
-            lugar desarrollarás tu novela: ciudad o entorno rural. Si hay un lugar
-            característico, como un bosque, un río, un desierto, el mar. En qué
-            época del año suceden los acontecimientos: no es lo mismo un cálido
-            verano que un implacable invierno. Si hay algún elemento no habitual:
-            una sequía, lluvias pertinaces. Los escenarios y las atmósferas, bien
-            trabajados, suelen dar muy buen resultado, elevando cualquier historia a
-            un nivel superior. Si no se te ocurre ninguno en un primer momento, no
-            pasa nada. Como decimos, no es obligatorio que les concedas un espacio
-            relevante en tu novela. Además verás que muchas veces este elemento
-            aparece a medida que escribes. </em>
+          <h3 class="subtitle"><span>#</span> El personaje</h3>
+          <p>
+            <em>
+              Lo siguiente a lo que debes prestar antes de empezar a escribir
+              una novela es al personaje. ¿Quién es el protagonista de tu
+              historia? ¿Quién va a llevar el peso de la acción? Tal vez lo
+              tengas claro desde el principio, pero ten cuidado de no decantarte
+              por lo obvio. La historia de la mujer emigrante, ¿la va a narrar
+              ella misma?, ¿y si lo hiciera su nieta? Lo mismo sucede con los
+              atributos del personaje. Una mujer emigrante debe ser valiente,
+              decidida, una mujer que toma su destino entre sus manos. Pero
+              ¿dónde está el conflicto en una historia así? Crea claroscuros
+              para evitar construir un personaje plano: una mujer con momentos
+              de vacilación, de duda, que debe sobreponerse a sus temores… Ese
+              es un personaje interesante.
+            </em>
           </p>
 
-          <h3>Tiempo y narrador</h3>
-          <p> <em>
-            Antes de empezar a escribir una novela debes pensar en qué tiempo vas a
-            narrar tu historia y a través de qué narrador (o narradores). Tanto el
-            tiempo como los puntos de vista contribuyen de manera importante a
-            configurar una novela. Si cambias tan solo uno de ellos, verás como tu
-            novela cambia por completo. Así que te conviene pensar en ellos antes de
-            empezar a escribir. Intentar cambiarlos más adelante, cuando ya lleves
-            la novela avanzada, supone mucho trabajo. Si todavía no tienes demasiada
-            soltura escribiendo, apuesta por lo seguro: un único punto de vista y
-            narración en pasado. </em>
+          <h3 class="subtitle"><span>#</span> Contexto</h3>
+          <p>
+            <em>
+              El contexto es vital en una novela. Es el telón sobre el que
+              sucede la acción y, aunque pueda parecer secundario, perfila a los
+              personajes y realza a la historia. Por eso es fundamental tenerlo
+              claro antes de empezar a escribir una novela. Para nuestra novela
+              de la mujer emigrante necesitaríamos documentarnos. Saber cómo era
+              la España de principios del siglo XX. También sería necesario
+              saber cómo era la Argentina de la época, cómo recibía a los
+              extranjeros, cuál era su clima social, político, laboral, etc.
+              Pero si fueras a escribir una novela de fantasía, deberías crear
+              las reglas que rigen el mundo o la sociedad donde tendrá lugar la
+              acción. Y luego hacer que todo suceda de acuerdo a esas reglas que
+              tú mismo habrás creado.
+            </em>
           </p>
 
-          <h3>Personajes secundarios</h3>
-          <p> <em>
-            Tu protagonista deberá interactuar con otros personajes. Y algunas de
-            esas interacciones serán clave. No hace falta que desarrolles a los
-            personajes secundarios con el nivel de detalle de tu protagonista, pero
-            si tienes que tener claro, antes de empezar a escribir, quiénes serán y
-            cómo intervendrán en la historia. </em>
+          <h3 class="subtitle">
+            <span>#</span>
+            Acontecimiento descencadenante
+          </h3>
+          <p>
+            <em>
+              Todas las novelas tienen un acontecimiento desencadenante que
+              dispara la acción. Algo que altera lo que era la situación normal
+              para introducir los cambios y conflictos que tendrán en vilo al
+              lector. El acontecimiento desencadenante es decisivo, pero en un
+              primer momento no es necesario que te obsesiones con él. Basta con
+              que lo esboces de manera superficial, después ya lo desarrollarás.
+              Por ejemplo: la protagonista de nuestra novela emigra a Argentina
+              cuando se queda viuda y sin sustento para encontrarse con su
+              hermano, que había emigrado años atrás.</em
+            >
           </p>
 
-        </main>
-        <!-- main -->
-         <!-- footer -->
-         <footer class="footer">
-          <p>Desarrollado por Shaiel Lucero</p>
-        </footer>
-        <!-- footer -->
-</body>
+          <h3 class="subtitle"><span>#</span> Momentos clave</h3>
+          <p>
+            <em>
+              Antes de empezar a escribir una novela tienes que tener claro
+              cuáles serán sus momentos clave, atendiendo a la historia que
+              estás tramando y a tu personaje. De nuevo, no hace falta que los
+              desarrolles. Tan solo apúntalos para tener presente hacia qué
+              hitos debes conducir la historia. Intenta pensar al menos tres
+              momentos clave para tu novela. Recuerda que los momentos clave no
+              tienen que ser situaciones de vida o muerte. Pueden ser
+              simplemente momentos de comprensión o de resolución. Eso sí,
+              tienen que tener sentido dentro del conjunto de la novela y estar
+              de acuerdo con el carácter preliminar que has esbozado para tu
+              personaje.</em
+            >
+          </p>
+          <h3 class="subtitle"><span>#</span> Desenlance</h3>
+          <p>
+            <em>
+              De la misma manera, debes tener claro cuál es el desenlace de tu
+              novela, hacia qué final dirigirás la acción. Anota la idea
+              general. Si tienes claros algunos detalles, apúntalos también. Si
+              se te ocurren distintas posibilidades para cerrar la historia,
+              toma nota de todas para ver después cuál es la que mejor encaja
+              con la historia cuando avances en la escritura.</em
+            >
+          </p>
+          <h3 class="subtitle"><span>#</span> Tono</h3>
+          <p>
+            <em>
+              El tono de una novela es un aspecto más intangible, menos
+              concreto, que su protagonista o su argumento. Sin embargo, es
+              igual de importante. Debes tener claro el tono de tu novela y no
+              perderlo de vista mientras escribes. Antes de empezar a escribir
+              tienes qué decidir cuál es el tono en que narrarás tu historia. A
+              veces el tono resulta obvio: si estás escribiendo una novela de
+              humor el tono tiene que ser gracioso o irónico. Otras veces debes
+              pensar un poco para dar con el tono adecuado.</em
+            >
+          </p>
+          <h3 class="subtitle"><span>#</span> Escenarios y atmosfera</h3>
+          <p>
+            <em>
+              Los escenarios y la atmósfera de tu novela no son elementos
+              decisivos. Pero pueden serlo. Hay muchas buenas novelas donde los
+              escenarios no tienen más importancia que la de ser los espacios
+              donde sucede la acción. Sin embargo, escenarios y atmósferas,
+              cuando se trabajan bien, pueden transformarse en un elemento que
+              recorre la novela de principio a fin. Un elemento que se imbrica
+              tanto en la narración que el lector lo reconoce como
+              característico de esa novela. Los escenarios y las atmósferas
+              pueden condicionar a los personajes y, con ello, el transcurso de
+              la acción. Antes de empezar a escribir, piensa en qué lugar
+              desarrollarás tu novela: ciudad o entorno rural. Si hay un lugar
+              característico, como un bosque, un río, un desierto, el mar. En
+              qué época del año suceden los acontecimientos: no es lo mismo un
+              cálido verano que un implacable invierno. Si hay algún elemento no
+              habitual: una sequía, lluvias pertinaces. Los escenarios y las
+              atmósferas, bien trabajados, suelen dar muy buen resultado,
+              elevando cualquier historia a un nivel superior. Si no se te
+              ocurre ninguno en un primer momento, no pasa nada. Como decimos,
+              no es obligatorio que les concedas un espacio relevante en tu
+              novela. Además verás que muchas veces este elemento aparece a
+              medida que escribes.
+            </em>
+          </p>
+
+          <h3 class="subtitle"><span>#</span> Tiempo y narrador</h3>
+          <p>
+            <em>
+              Antes de empezar a escribir una novela debes pensar en qué tiempo
+              vas a narrar tu historia y a través de qué narrador (o
+              narradores). Tanto el tiempo como los puntos de vista contribuyen
+              de manera importante a configurar una novela. Si cambias tan solo
+              uno de ellos, verás como tu novela cambia por completo. Así que te
+              conviene pensar en ellos antes de empezar a escribir. Intentar
+              cambiarlos más adelante, cuando ya lleves la novela avanzada,
+              supone mucho trabajo. Si todavía no tienes demasiada soltura
+              escribiendo, apuesta por lo seguro: un único punto de vista y
+              narración en pasado.
+            </em>
+          </p>
+
+          <h3 class="subtitle"><span>#</span> Personajes secundarios</h3>
+          <p>
+            <em>
+              Tu protagonista deberá interactuar con otros personajes. Y algunas
+              de esas interacciones serán clave. No hace falta que desarrolles a
+              los personajes secundarios con el nivel de detalle de tu
+              protagonista, pero si tienes que tener claro, antes de empezar a
+              escribir, quiénes serán y cómo intervendrán en la historia.
+            </em>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- main -->
+    <!-- footer -->
+    <div class="divider-3"></div>
+    <footer class="footer">
+      <p>Desarrollado por Shaiel Lucero</p>
+    </footer>
+    <!-- footer -->
+  </body>
 </html>
