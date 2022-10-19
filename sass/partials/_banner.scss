@@ -1,33 +1,33 @@
 .section__banner {
+  background-color: $primary-color;
+
+  .container-xl {
     background-color: $primary-color;
-  
-    .container-xl {
-      background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .banner__1 {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-  
+      justify-content: center;
+      background-color: $alternative-color;
+      margin: 0 20%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    .container-xl {
       .banner__1 {
         display: flex;
         justify-content: center;
         background-color: $alternative-color;
-        margin: 0 20%;
+        margin: 0 0;
         img {
           width: 100%;
         }
       }
     }
-    @media (max-width: 900px) {
-      .container-xl {
-        .banner__1 {
-          display: flex;
-          justify-content: center;
-          background-color: $alternative-color;
-          margin: 0 0;
-          img {
-            width: 100%;
-          }
-        }
-      }
-    }
   }
+}

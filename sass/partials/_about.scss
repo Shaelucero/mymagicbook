@@ -1,54 +1,53 @@
 .section__about {
-    overflow: hidden;
-    background-color: #fedbd9;
-    padding: 1rem 0;
-    .about__text {
-      flex: 1;
-  
-      padding-top: 2.5rem;
-      min-width: 340px;
-      h2 {
-        font-family: map-get($fonts, "secondary-font");
-        font-size: 4.5em;
-        text-align: center;
-      }
-      p {
-        margin-top: 15px;
-      }
-      &_imagen-wrapper {
-        display: flex;
-        justify-content: center;
-        & img {
-          width: 100%;
-          max-width: 600px;
-          min-width: 340px;
-        }
-      }
+  overflow: hidden;
+  background-color: #fedbd9;
+  padding: 1rem 0;
+  .about__text {
+    flex: 1;
+
+    padding-top: 2.5rem;
+    min-width: 340px;
+    h2 {
+      font-family: map-get($fonts, "secondary-font");
+      font-size: 4.5em;
+      text-align: center;
     }
-    .container-xl {
-      flex-wrap: wrap;
+    p {
+      margin-top: 15px;
+    }
+    &_imagen-wrapper {
+      display: flex;
       justify-content: center;
-      .about__img {
-        width: max-content;
-        display: flex;
-        position: relative;
-        img {
-          transform: rotate(-5deg);
-          min-width: 300px;
-          max-width: 350px;
-          object-position: top;
-          object-fit: cover;
-          border: 10px solid white;
-          position: absolute;
-          z-index: 1;
-        }
-        .fondo {
-          background-color: $alternative-color;
-          width: 350px;
-          height: 500px;
-          left: 25px;
-        }
+      & img {
+        width: 100%;
+        max-width: 600px;
+        min-width: 340px;
       }
     }
   }
-  
+  .container-xl {
+    flex-wrap: wrap;
+    justify-content: center;
+    .about__img {
+      width: max-content;
+      display: flex;
+      position: relative;
+      img {
+        transform: rotate(-5deg);
+        min-width: 300px;
+        max-width: 350px;
+        object-position: top;
+        object-fit: cover;
+        border: 10px solid white;
+        position: absolute;
+        z-index: 1;
+      }
+      .fondo {
+        background-color: $alternative-color;
+        width: 350px;
+        height: 500px;
+        left: 25px;
+      }
+    }
+  }
+}

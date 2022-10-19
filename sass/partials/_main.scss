@@ -37,3 +37,22 @@
     }
   }
 }
+
+.subtitle {
+  @include h2;
+  text-decoration: underline;
+  & span {
+    text-decoration: none;
+    color: blueviolet;
+  }
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  & a {
+    font-size: 2rem;
+    color: $text-color;
+  }
+}

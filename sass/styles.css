@@ -19,7 +19,7 @@ body {
   justify-content: center;
   padding: 3rem 0;
   max-width: 1250px;
-  margin: auto;}
+  margin: auto; }
   .main__home .main__img {
     max-width: 400px;
     min-width: 250px;
@@ -30,13 +30,13 @@ body {
     flex-direction: column;
     gap: 1em;
     max-width: max-content;
-    min-width: 300px;}
+    min-width: 300px; }
     .main__home .main__text h2 {
       font-family: "Dancing Script", cursive;
       text-align: start;
       font-size: 6em;
       line-height: 1em;
-      text-align: center;}
+      text-align: center; }
     .main__home .main__text .text {
       text-align: center;
       gap: 1em; }
@@ -45,13 +45,6 @@ body {
         font-weight: 100;
         font-style: italic;
         gap: 2em; }
-
-.galery {
-  max-width: 800px !important; }
-  .galery .carousel-item img {
-    aspect-ratio: 3/4;
-    object-fit: cover;
-    max-height: 600px; }
 
 .subtitle {
   font-family: "Dancing Script", cursive;
@@ -143,9 +136,7 @@ body {
 .navbar {
   background-color: #ffc0cb;
   position: fixed;
-  z-index: 99;
-  width: 100%;}
-
+  z-index: 99; }
   .navbar .nav-link {
     font-size: 1.1em;
     font-weight: bold;
@@ -198,4 +189,4 @@ body {
   .prologe p {
     font-size: 0.8rem;
     text-align: center; }
-/*# sourceMappingURL=styles.css.map */
+    

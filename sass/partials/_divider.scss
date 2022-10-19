@@ -1,19 +1,19 @@
 .divider-1 {
-    background: #fedbd9;
-    background: linear-gradient(0deg, #fedbd9, $primary-color);
-    padding: 1.5rem;
-  }
-  .divider-2 {
-    background: #fedbd9;
-    background: linear-gradient(0deg, $primary-color, #fedbd9);
-    padding: 1.5rem;
-  }
-  .divider-3 {
-    background: linear-gradient(0deg, $secondary-color, #fedbd9);
-    padding: 1.5rem;
-  }
-  
-  .divider-4 {
-    background: linear-gradient(0deg, $secondary-color, $primary-color);
-    padding: 1.5rem;
-  }
+  background: #fedbd9;
+  background: linear-gradient(0deg, #fedbd9, $primary-color);
+  padding: 1.5rem;
+}
+.divider-2 {
+  background: #fedbd9;
+  background: linear-gradient(0deg, $primary-color, #fedbd9);
+  padding: 1.5rem;
+}
+.divider-3 {
+  background: linear-gradient(0deg, $secondary-color, #fedbd9);
+  padding: 1.5rem;
+}
+
+.divider-4 {
+  background: linear-gradient(0deg, $secondary-color, $primary-color);
+  padding: 1.5rem;
+}

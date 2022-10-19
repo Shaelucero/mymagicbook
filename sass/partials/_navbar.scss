@@ -1,13 +1,13 @@
 .navbar {
-    background-color: $secondary-color;
-    position: fixed;
-    z-index: 99;
-    .nav-link {
-      font-size: 1.1em;
-      font-weight: bold;
-      border-radius: 2rem;
-      &.active {
-        background-color: whitesmoke;
-      }
+  background-color: $secondary-color;
+  position: fixed;
+  z-index: 99;
+  .nav-link {
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 2rem;
+    &.active {
+      background-color: whitesmoke;
     }
   }
+}
