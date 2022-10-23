@@ -213,7 +213,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .carousel-inner .carousel-item img {
     height: 300px;
   }
