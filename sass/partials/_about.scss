@@ -32,6 +32,7 @@
       width: max-content;
       display: flex;
       position: relative;
+      justify-content: center;
       img {
         transform: rotate(-5deg);
         min-width: 300px;
@@ -41,12 +42,19 @@
         border: 10px solid white;
         position: absolute;
         z-index: 1;
+        @media (max-width: 600px) {
+          max-width: 300px;
+        }
       }
       .fondo {
         background-color: $alternative-color;
         width: 350px;
         height: 500px;
         left: 25px;
+        @media (max-width: 600px) {
+          max-width: 300px;
+          height: 430px;
+        }
       }
     }
   }
